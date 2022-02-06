@@ -1,12 +1,12 @@
 import type { NextPage } from 'next'
 import Layout from '../components/templates/Layout'
 
-const Home: NextPage = () => {
+const configuracoes: NextPage = () => {
   return (
     <h1 className="text-3xl font-bold">
-      <Layout titulo='Home' subtitulo='Deboa?'/>
+      <Layout titulo='Configurações' subtitulo='Aqui serão as configurações'/>
     </h1>
   )
 }
 
-export default Home
+export default configuracoes

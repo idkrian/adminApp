@@ -10,9 +10,9 @@ interface LayoutProps{
 
 export default function Layout(props: LayoutProps){
     return(
-        <div className={`flex h-screen w-screen`}>
+        <div className={`dark flex h-screen w-screen`}>
             <MenuLateral/>
-            <div className={`flex flex-col bg-red-500 w-full p-7`}>
+            <div className={`flex flex-col dark:bg-gray-800 bg-gray-200 bg-gray w-full p-7`}>
                 <Topbar titulo={props.titulo} subtitulo={props.subtitulo} />
                 <Conteudo> 
                     {props.children}
